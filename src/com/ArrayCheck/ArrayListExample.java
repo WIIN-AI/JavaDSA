@@ -19,7 +19,7 @@ public class ArrayListExample {
             list.add(1);
 
         }
-        System.out.println(list);
+        System.out.println("list" +list);
 
         //get item -- > list.get(i)
         for (int i = 0; i < 5 ; i++) {

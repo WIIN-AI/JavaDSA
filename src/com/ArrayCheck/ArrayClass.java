@@ -2,7 +2,7 @@ package com.aitestflow.src.com.ArrayCheck;
 
 import java.util.Arrays;
 
-public class ArrayListFirstClass {
+public class ArrayClass {
     public static void main(String[] args) {
        //collection of data type
         // syntax --> datatype[] variable_name = new datatype[size];
@@ -13,6 +13,8 @@ public class ArrayListFirstClass {
         for (int i =0; i <a.length;i++){
             System.out.println(a[i]);
         }
+
+        //get the index value -- >
 
     }
 }
