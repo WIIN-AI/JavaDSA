@@ -7,9 +7,9 @@ public class ReverseArr {
         int[] arr ={1,5,6,8,9,10};
 
         System.out.println(Arrays.toString(arr));
-        forReverse(arr); // reverse
+        forReverse(arr); // reverse with FOR LOOP
         System.out.println(Arrays.toString(arr));
-        reverse(arr); //re reverse
+        whileReverse(arr); //reverse with WHILE REVERSE LOOP
         System.out.println(Arrays.toString(arr));
 
 
@@ -22,7 +22,7 @@ public class ReverseArr {
             }
         }
     }
-   static  void reverse(int[] arr){
+   static  void whileReverse(int[] arr){
         int start = 0 ;
         int end =arr.length-1;
 
